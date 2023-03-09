@@ -10,6 +10,7 @@ In this challenge, you'll be building out an early access landing page that incl
 - CSS custom properties
 - Flexbox
 - Responsive Design
+- Javascript (Email Validation)
 
 ## Designed for ony tree devices 
 - Mobile (375px)
