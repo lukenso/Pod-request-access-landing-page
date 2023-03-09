@@ -20,7 +20,7 @@ In this challenge, you'll be building out an early access landing page that incl
 ## Resources
 
 - Challange URL: [Click here](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG)
-- Live Site URL: [Click here](#)
+- Live Site URL: [Click here](https://lukenso.github.io/Pod-request-access-landing-page/)
 ## Author
 
 - LinkedIn - [Luka Koridze](https://www.linkedin.com/in/luka-koridze-4397571a4/)
