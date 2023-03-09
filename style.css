@@ -1,0 +1,320 @@
+body{
+    font-family: 'Chivo', sans-serif;
+    background-color: #121725;
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    background-image: url(assets/mobile/image-host.jpg);
+    mix-blend-mode: screen;
+    filter: brightness(0.1);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 667px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+}
+
+.site-logo{
+    height: 56px;
+}
+
+.main-container h1{
+    font-weight: 200;
+    font-size: 27px;
+    width: 340px;
+    line-height: 38px;
+    color: #54E6AF;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: 57px;
+    text-transform: uppercase;
+}
+
+.main-container h1 span{
+    color: #FFFFFF;
+}
+
+.main-container p{
+    width: 327px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #C2CBE5;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.sponsors{
+    width: 327px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    margin-left: 30px;
+    justify-content: space-between;
+    filter: opacity(0.6);
+}
+
+.spotify{
+    height: 17px;
+}
+
+.apple{
+    height: 17px;
+}
+
+.google{
+    height: 15px;
+}
+
+.pocket{
+    height: 15px;
+}
+
+.email-mobile{
+    width: 327px;
+    height: 46px;
+    border-radius: 28px;
+    background: #2C344B;
+    border-style: none;
+    margin-top: 52px;
+    margin-left: 24px;
+}
+
+#error-message {
+  color: #FB3E3E;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.28px;
+  position: absolute;
+  margin-top: -62px;
+  margin-left: 50px;
+}
+
+#error-message.show {
+  color: #FB3E3E;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.28px;
+  position: absolute;
+  margin-top: -62px;
+  margin-left: 50px;
+}
+
+::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 50%;
+    padding-left: 32px;
+}
+
+input[type="email"] {
+    color: white;
+  }
+
+
+.request{
+    width: 326px;
+    height: 46px;
+    background: #54E6AF;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+    border-radius: 28px;
+    border-style: none;
+    margin-top: 16px;
+    margin-left: 25px;
+    color: #121725;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.shape{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+     .background{
+        background-image: url(./assets/tablet/image-host.jpg);
+        background-position: right;
+        filter: none;
+        mix-blend-mode: normal;
+    }
+
+    .logo{
+        float: left;
+        margin-top: 50px;
+        margin-left: 39px;
+    }
+
+    .main-container{
+        width: 635px;
+        height: 480px;
+        position: absolute;
+        margin-top: 214px;
+        background: #121725;
+        margin-left: 39px;
+    }
+
+    .main-container h1{
+        margin-left: 0px;
+        width: 635px;
+        text-align: left;
+        font-size: 48px;
+        line-height: 56px;
+        margin-top: 93px;
+        font-weight: 100;
+    }
+
+    .main-container p{
+        margin-left: 0px;
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        font-weight: 100;
+    }
+
+    .email-mobile{
+        margin-left: 0px;
+        width: 427px;
+        height: 56px;
+        margin-top: 30px;
+    }
+    
+    input[type="email"] {
+        color: white;
+        padding-left: 32px;
+      }
+
+      ::placeholder{
+        padding-left: 0px;
+      }
+
+      #error-message {
+        margin-top: 7px;
+        margin-left: 32px;
+      }
+      
+      #error-message.show {
+        margin-top: 7px;
+        margin-left: 32px;
+      }
+
+    .request{
+        width: 162px;
+        height: 46px;
+        position: absolute;
+        margin-left: -168px;
+        margin-top: 36px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .sponsors{
+        order: 4;
+        gap: 40px;  
+        position: absolute;
+        margin-top: 126px;
+        margin-left: 0px;
+    }
+
+    .spotify,
+    .apple{
+        height: 28.91px;
+    }
+
+    .google{
+        height: 18px;
+        margin-top: 6px;
+    }
+
+    .pocket{
+        height: 26px;
+    }
+
+    .shape{
+        display: block;
+        margin-top: 171px;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .background{
+       background-image: url(./assets/desktop/image-host.jpg);
+       margin-top: 130px;
+    }
+
+    .logo{
+        margin-top: 102px;
+        margin-left: 165px;
+    }
+
+    .main-container{
+        width: 723px;
+        height: 509px;
+        margin-top: 275px;
+        margin-left: 165px;
+    }
+
+    .main-container h1{
+        font-size: 52px;
+        line-height: 62px;
+        width: 665px;
+    }
+
+    .main-container p{
+        font-size: 18px;
+        line-height: 28px;
+        filter: opacity(0.6);
+    }
+
+    .shape{
+        margin-left: 1043px;
+        margin-top: 50px;
+    }
+
+    .request:hover{
+        background: #B3FFE2;
+        cursor: pointer;
+    }
+
+    #error-message {
+        color: #FB3E3E;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.28px;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 26px;
+      }
+      
+      #error-message.show {
+        color: #FB3E3E;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.28px;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 26px;
+      }
+
+      input[type="email"] {
+        color: white;
+        padding-left: 32px;
+      }
+
+      ::placeholder{
+        padding-left: 0px;
+      }
+}
+    
