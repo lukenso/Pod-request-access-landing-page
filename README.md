@@ -12,7 +12,7 @@ In this challenge, you'll be building out an early access landing page that incl
 - Responsive Design
 - Javascript (Email Validation)
 
-## Designed for ony tree devices 
+## Designed for only tree devices 
 - Mobile (375px)
 - Tablet (768px)
 - Desktop(1440px)
